@@ -1,0 +1,39 @@
+{
+  "name": "chesstrings",
+  "version": "1.0.0",
+  "description": "Chess string convertor",
+  "main": "src/index.js",
+  "types": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardoengithub/chesstrings.git"
+  },
+  "keywords": [
+    "chess",
+    "chessboard",
+    "strings"
+  ],
+  "author": "Ricardo Ruiz <gaanzz11@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ricardoengithub/chesstrings/issues"
+  },
+  "homepage": "https://github.com/Ricardoengithub/chesstrings#readme",
+  "dependencies": {
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
